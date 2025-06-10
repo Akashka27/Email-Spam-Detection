@@ -5,7 +5,7 @@ from sklearn.naive_bayes import MultinomialNB
 import streamlit as st
 
 # Load and prepare data
-data = pd.read_csv("/Users/akashakash/Downloads/spam.csv")
+data = pd.read_csv("spam.csv")
 data.drop_duplicates(inplace=True)
 data['Category'] = data['Category'].replace(['ham', 'spam'], ['Not Spam', 'Spam'])
 
