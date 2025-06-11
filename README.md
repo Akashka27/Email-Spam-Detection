@@ -30,12 +30,10 @@ streamlit run app.py
 ```
 
 ## 📊 Dataset
-**Spam Collection Dataset**
-📥 Combined from various public sources including:
 
-Enron-Spam datasets
-
-SpamAssassin public corpus
+**Combined from various public sources including:**
+ -Enron-Spam datasets
+-SpamAssassin public corpus
 
 Custom collected samples**  
 📥 [Download Dataset](data/diabetes.csv)
