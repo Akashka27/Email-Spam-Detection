@@ -46,6 +46,15 @@ graph TD
     C --> D[Naive Bayes Classifier]
     D --> E[Spam/Ham Prediction]
 ```
+## 🖼️ System Workflow
+
+- User inputs email text email text
+- System processes text (tokenization, stemming, etc.)
+- TF-IDF vectorization transforms text to features
+- Trained model makes prediction with confidence score
+- Results displayed with visual indicators
+
+
 
 ## 🖼️ Screenshots
 ![App Screenshot](images/input_screen.png)
