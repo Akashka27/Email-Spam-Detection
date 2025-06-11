@@ -32,11 +32,11 @@ streamlit run app.py
 ## 📊 Dataset
 
 **Combined from various public sources including:**
- -Enron-Spam datasets
--SpamAssassin public corpus
+- Enron-Spam datasets
+- SpamAssassin public corpus
+- Custom collected samples
 
-Custom collected samples**  
-📥 [Download Dataset](data/diabetes.csv)
+📥 [Download Dataset](data/spam.csv)
 
 ## 🧠 Model Architecture
 ```mermaid
@@ -48,8 +48,8 @@ graph TD
 ```
 
 ## 🖼️ Screenshots
-![App Screenshot](images/input_screen.jpg)
-![App Screenshot](images/result_screen.jpg)
+![App Screenshot](images/input_screen.png)
+![App Screenshot](images/result_screen.pmg.png)
 
 ## 🤝 Contributing
 Pull requests welcome! Please open an issue first.
