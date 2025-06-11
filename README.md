@@ -23,3 +23,38 @@
 git clone https://github.com/Akashka27/Email-Spam-Detection.git
 cd Email-Spam-Detection
 pip install -r requirements.txt
+```
+### Launch App
+```bash
+streamlit run app.py
+```
+
+## 📊 Dataset
+**Spam Collection Dataset**
+📥 Combined from various public sources including:
+
+Enron-Spam datasets
+
+SpamAssassin public corpus
+
+Custom collected samples**  
+📥 [Download Dataset](data/diabetes.csv)
+
+## 🧠 Model Architecture
+```mermaid
+graph TD
+    A[Raw Email] --> B[Text Preprocessing]
+    B --> C[Feature Extraction]
+    C --> D[Naive Bayes Classifier]
+    D --> E[Spam/Ham Prediction]
+```
+
+## 🖼️ Screenshots
+![App Screenshot](images/input_screen.jpg)
+![App Screenshot](images/result_screen.jpg)
+
+## 🤝 Contributing
+Pull requests welcome! Please open an issue first.
+
+## 📜 License
+MIT © Akash 
